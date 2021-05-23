@@ -3,8 +3,6 @@
 const supergoose = require('@code-fellows/supergoose');
 const server = require('../src/server');
 const request = supergoose(server.app);
-const sinon = require('sinon');
-const userModel = require('../src/auth/models/users-model');
 
 describe('404 not found error', () => {
   //arrange
